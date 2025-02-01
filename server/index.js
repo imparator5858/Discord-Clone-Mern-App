@@ -21,7 +21,7 @@ const server = app.listen(port, () => {
 const io = require('socket.io')(server,{
   pingTimeout:20000,
   cors:{
-    origin:"https://project-discord.netlify.app"
+    origin:"https://lucent-pastelito-15bf63.netlify.app"
   }
 })
 
