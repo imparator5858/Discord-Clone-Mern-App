@@ -51,7 +51,7 @@ io.on("connection", (socket) => {
 // mogoose config
 const mongoose = require('mongoose');
 const shortid = require('shortid');
-mongoose.connect("mongodb+srv://imparator:yInzTGtW9zbRgMuI@xeox.t5rfqye.mongodb.net/");
+mongoose.connect("mongodb+srv://imparator:sxhoxUsGOq2xIZvM@xeox.t5rfqye.mongodb.net/");
 
 // user modal
 var user_details = new mongoose.Schema({
